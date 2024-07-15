@@ -1,0 +1,738 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    width: 22rem;
+    height: 25rem;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    gap: 22rem;
+}
+
+/** The page name **/
+.name{
+    margin-left: 2rem;
+}
+.name > h1{
+    font-size: 8rem;
+    font-weight: 500;
+    font-family: "armata", sans-serif;
+}
+
+/** Company name **/
+.logo{
+    margin-left: -22rem;
+    margin-top: 1rem;
+}
+
+.logo > img{
+    width: 8rem;
+    height: 8rem;
+}
+
+/** Navigation links or buttons at the top of the landing page **/
+.link{
+    /** position: fixed; **/
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    /** margin-left: 55rem; **/
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+    margin-top: -0.9rem;
+}
+
+/** for the services nav button **/
+.dropdown-content{
+	display: none;
+	position: absolute;
+    margin-left: -9rem;
+    margin-top: -1rem;
+	background-color: #0f0e0e;
+	min-width: 16rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/** for the explore nav button **/
+.dropdown-content2{
+    display: none;
+	position: absolute;
+    margin-left: -5rem;
+    margin-top: -1rem;
+	background-color: #0f0e0e;
+	min-width: 10rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/** for the contact nav button **/
+.dropdown-content3{
+    display: none;
+	position: absolute;
+    margin-left: -5rem;
+    margin-top: -1rem;
+	background-color: #0f0e0e;
+	min-width: 10rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/** for the service nav button **/
+.dropdown-content > a{
+	color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+/** For the explore nav button **/
+.dropdown-content2 > a{
+    color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+/** for the contact nav button **/
+.dropdown-content3 > a{
+    color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+/** for the service nav button **/
+.dropdown-content > a:hover{
+	background-color: gray;
+}
+
+/** for the explore nav button **/
+.dropdown-content2 > a:hover{
+    background-color: gray;
+}
+
+/** for the contact nav button **/
+.dropdown-content3 > a:hover{
+    background-color: gray;
+}
+
+/** for the service nav button **/
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+/** for the explore nav button **/
+.dropdown:hover .dropdown-content2{
+    display: block;
+}
+
+/** for the contact nav button **/
+.dropdown:hover .dropdown-content3{
+    display: block;
+}
+
+.dropbtn{
+	background-color: black;
+	color: white;
+	padding: 16px;
+	font-size: 1rem;
+    font-weight: 100;
+	border: none;
+	cursor: pointer;
+}
+
+
+.link > h4{
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.topic{
+    margin-left: 40rem;
+    margin-top: -2.6rem;
+}
+
+.topic > h3{
+    font-size: 2.4rem;
+    font-family: "arsenal", sans-serif;
+}
+
+/** The section begins **/
+
+/** project section **/
+.project{
+    background-color: #373339;
+    color: white;
+    width: 100vw;
+    height: 170vh;
+    margin: 0;
+}
+
+/** project section heading **/
+.project1 > h1{
+    font-size: 5.5rem;
+    font-weight: 300;
+    margin-left: 3rem;
+    font-family: "Aubrey", system-ui;
+}
+
+.project1 > h3{
+    font-size: 2rem;
+    font-weight: 200;
+    margin-left: 7rem;
+    margin-top: 0.5rem;
+}
+
+/** Project types **/
+.project2{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+
+.project2 > h3{
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    word-spacing: -0.8rem;
+}
+
+/** Examples of projects on display **/
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.container1 > div > p{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+
+}
+
+/** services section **/
+.services{
+    background-color: #b7b3b3;
+    width: 100vw;
+    height: 155vh;
+    margin: 0;
+}
+
+/** Service heading **/
+.services1 > h3{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    font-weight: bolder;
+    position: relative;
+    top: 1.7rem;
+}
+
+.services1 > h1{
+    font-size: 3.5rem;
+    margin-left: 10rem;
+    margin-top: 1.5rem;
+}
+
+/** Service examples and discription **/
+.services2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin-top: 2.5rem;
+   
+}
+
+.services2 > div > img{
+    width: 14rem;
+    height: 10rem;
+    margin-left: 6.2rem;
+}
+
+.services2 > div > h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.services2 > div > p{
+    font-size: 1rem;
+    width: 20rem;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+/** Buttons in the service section **/
+.btn3a{
+    margin-top: 6.7rem;
+
+}
+
+.btn3b{
+    margin-top: 6.7rem;
+}
+
+.btn3c{
+    margin-top: 1rem;
+}
+
+.btn3d{
+    margin-top: 3.3rem;
+}
+
+.btn3e{
+    margin-top: 5.7rem;
+}
+
+.btn3f{
+    margin-top: 2rem;
+}
+
+.btn3a, .btn3b, .btn3c, .btn3d, .btn3e, .btn3f{
+    background-color: #373339;
+    width: 10rem;
+    height: 2.5rem;
+    margin-left: 8.5rem;
+    border-radius: 0.8rem;
+    align-content: center;
+    color: white;
+}
+
+/** about section **/
+.about{
+    background-color: #373339;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.about > h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-left: 6rem;
+    position: relative;
+    right: 1rem;
+    top: 1.5rem;
+}
+
+.about > p{
+    font-size: 2rem;
+    justify-content: center;
+    width: 66rem;
+    height: 15rem;
+    margin-left: 11rem;
+    margin-top: 3rem;
+}
+
+/** review section **/
+.review{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 95vh;
+}
+
+.review > h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-left: 6rem;
+    position: relative;
+    top: 1rem;
+}
+
+.review > h3{
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+/** the examples **/
+.review2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+
+.review2 > div > img{
+    width: 6rem;
+    height: 6rem;
+    margin-top: -1rem;
+    margin-left: 7rem;
+}
+
+.review2 > div > h3{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.review2 > div > p{
+    width: 20rem;
+    text-align: center;
+}
+
+/** The button to view more reviews **/
+.btn1 > h3 > a{
+    color: black;
+}
+
+.btn1{
+    margin-top: 3rem;
+    margin-left: 75rem;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: white;
+    color: black;
+    align-content: center;
+    border-radius: 5rem;
+    text-align: center;
+}
+
+/** workplan section **/
+.workplan{
+    background-color: #d9d9d9;
+    width: 100vw;
+    height: 155vh;
+}
+
+/** Workplan heading **/
+.workplan > h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-left: 3rem;
+    position: relative;
+    top: 1.6rem;
+}
+
+.workplan > h3{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+/** The discription and examples **/ 
+.workplan2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.basic{
+    background-color: #707070;
+    color: black;
+    width: 25rem;
+    height: 33rem;
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
+    border-bottom-left-radius: 1.7rem;
+    border-bottom-right-radius: 1.7rem;
+}
+
+.basic > h2{
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 1rem;
+}
+
+.basic > h3{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+hr{
+    width: 20.2rem;
+    height: 0.1rem;
+    background-color: white;
+    margin-left: 2.3rem;
+}
+
+.basic > h4{
+    text-align: center;
+    margin-top: 0.6rem;
+    font-size: 2.5rem;
+    word-spacing: -1rem;
+}
+
+.basic > h5{
+    text-align: center;
+    font-size: 1rem;
+    word-spacing: -0.2rem;
+    background-color: #d9d9d9;
+    width: 14rem;
+    height: 1.5rem;
+    align-content: center;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    color: black;
+}
+.basic > h5 > a{
+    color: black;
+}
+
+.basic > ul{
+    margin-left: 2.7rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.standard{
+    background-color: #373339;
+    color: white;
+    width: 25rem;
+    height: 39rem;
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
+    border-bottom-left-radius: 1.7rem;
+    border-bottom-right-radius: 1.7rem;
+}
+
+.standard > h2{
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 1rem;
+}
+
+.standard > h3{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.standard > h4{
+    text-align: center;
+    margin-top: 0.6rem;
+    font-size: 2.5rem;
+    word-spacing: -1rem;
+}
+
+.standard > h5{
+    text-align: center;
+    font-size: 1rem;
+    word-spacing: -0.2rem;
+    background-color: #d9d9d9;
+    width: 14rem;
+    height: 1.5rem;
+    align-content: center;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    color: black; 
+}
+.standard > h5 > a{
+    color: black;
+}
+
+.standard > ul{
+    margin-left: 2.7rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.premium{
+    background-color: #1d1d1e;
+    color: white;
+    width: 25rem;
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
+    border-bottom-left-radius: 1.7rem;
+    border-bottom-right-radius: 1.7rem;
+}
+
+.premium > h2{
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 1rem;
+}
+
+.premium > h3{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.premium > hr{
+    width: 18rem;
+    margin-left: 3.5rem;
+}
+
+.premium > h4{
+    text-align: center;
+    margin-top: 0.6rem;
+    font-size: 2.5rem;
+    word-spacing: -1rem;
+}
+
+.premium > h5{
+    text-align: center;
+    font-size: 1rem;
+    word-spacing: -0.2rem;
+    background-color: #d9d9d9;
+    width: 14rem;
+    height: 1.5rem;
+    align-content: center;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    color: black; 
+}
+.premium > h5 > a{
+    color: black;
+}
+
+.premium > ul{
+    margin-left: 2.7rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+/** Button to view more work plan **/
+.btn2{
+    margin-top: 3rem;
+    background-color: black;
+    color: white;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 2.5rem;
+    text-align: center;
+    align-content: center;
+    margin-left: 2rem;
+}
+
+/** Footer section begin **/
+footer{
+    background-color: white;
+    width: 100vw;
+    height: 45vh;
+}
+
+.icons > a > img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 18rem;
+    margin-left: 1rem;
+}
+
+.line{
+    width: 12rem;
+    height: 0rem;
+    rotate: 90deg;
+    margin-left: 40rem;
+    margin-top: -7rem;
+    background-color: black;
+    border-color: black;
+}
+
+.line2{
+    width: 80rem;
+    background-color: black;
+    border-color: black;
+    height: 0rem;
+}
+
+.table{
+    margin-left: 50rem;
+    margin-bottom: 1rem;
+}
+
+.table > table{
+    width: 35rem;
+    height: 14rem;
+    
+}
+
+.table > table > thead > tr > th{
+    font-weight: bolder;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.table > table > tbody > tr > td >{
+    text-align: left;
+}
+
+.table1{
+    position: relative;
+    left: 4.5rem;
+}
+
+td > a{
+    color: black;
+}
+
+.terms{
+    display: flex;
+    flex-direction: row;
+    gap: 45rem;
+}
+
+.terms > a > img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.terms1{
+    margin-left: -46rem;
+    word-spacing: -0.5rem;
+}
+
+.terms > h3{
+    font-weight: 100;
+    font-size: 1rem;
+    align-content: center;
+}
+
+.terms > h3 > a{
+    color: black;
+}
+
