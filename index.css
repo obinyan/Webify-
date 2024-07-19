@@ -63,7 +63,7 @@ a{
     width: 100%;
     position: fixed;
     top: 0;
-    
+    margin-left: 20rem;
     z-index: 1000;
 
     /** margin-left: 55rem; **/
