@@ -64,8 +64,8 @@ a{
     height: 5rem;
     position: fixed;
     top: 0;
-    right: 20rem;
-    z-index: 1000;
+    right: 5rem;
+    z-index: 10;
 
     /** margin-left: 55rem; **/
 }
