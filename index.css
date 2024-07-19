@@ -65,10 +65,10 @@ a{
 
 .link{
     position: fixed;
-    top: 2rem;
-    left: 2rem;
-    width: 100vw;
-    height: 4rem;
+    top: 0;
+    left: 10rem;
+    width: 5rem;
+    height: 5rem;
     background-color: black;
     align-content: center;
 }
