@@ -58,10 +58,10 @@ a{
     flex-direction: row;
     gap: 2rem;
     margin-top: 2.5rem;
-    background-color: black;
+    
     position: fixed;
     top: 0;
-   
+    right: 0;
     width: 100px;
 }
 
