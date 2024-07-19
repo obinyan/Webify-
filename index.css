@@ -63,6 +63,15 @@ a{
     /** margin-left: 55rem; **/
 }
 
+.link{
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 100vw;
+    height: 4rem;
+    background-color: black;
+}
+
 .dropdown{
 	position: relative;
 	display: inline-block;
