@@ -60,11 +60,11 @@ a{
     gap: 2rem;
     margin-top: 2.5rem;
     background-color: black;
-    width: 100%;
-    height: 1rem;
+    width: 100vw;
+    height: 5rem;
     position: fixed;
     top: 0;
-    left: 20rem;
+    left: 40rem;
     z-index: 1000;
 
     /** margin-left: 55rem; **/
