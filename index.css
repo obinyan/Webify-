@@ -59,9 +59,13 @@ a{
     flex-direction: row;
     gap: 2rem;
     margin-top: 2.5rem;
-    background-color: #0f0e0e;
-    width: 100vw;
+    background-color: black;
+    width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
     /** margin-left: 55rem; **/
 }
 
