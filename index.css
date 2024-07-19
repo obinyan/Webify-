@@ -54,19 +54,13 @@ a{
 
 /** Navigation links or buttons at the top of the landing page **/
 .link{
-    /** position: fixed; **/
+    position: fixed; 
     display: flex;
     flex-direction: row;
     gap: 2rem;
     margin-top: 2.5rem;
-    
-    /** margin-left: 55rem; **/
 }
 
-.link{
-    position: fixed;
-   
-}
 
 .dropdown{
 	position: relative;
