@@ -55,12 +55,12 @@ a{
 /** Navigation links or buttons at the top of the landing page **/
 .link{
     position: fixed; 
-    left: 50rem;
+    left: 40rem;
     display: flex;
     flex-direction: row;
     gap: 2rem;
     margin-top: 2.5rem;
-    backhround-color: black;
+    background-color: black;
 }
 
 
