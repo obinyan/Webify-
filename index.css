@@ -55,6 +55,7 @@ a{
 /** Navigation links or buttons at the top of the landing page **/
 .link{
     position: fixed; 
+    left: 50rem;
     display: flex;
     flex-direction: row;
     gap: 2rem;
