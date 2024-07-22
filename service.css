@@ -40,6 +40,115 @@ a{
     margin-top: 2.5rem;
 }
 
+.dropdown{
+	position: relative;
+	display: inline-block;
+    margin-top: -0.9rem;
+
+}
+
+/** for the services nav button **/
+.dropdown-content{
+	display: none;
+	position: absolute;
+    margin-left: -9rem;
+    margin-top: -1rem;
+	background-color: black;
+	min-width: 16rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/** for the explore nav button **/
+.dropdown-content2{
+    display: none;
+	position: absolute;
+    margin-left: -5rem;
+    margin-top: -1rem;
+	background-color: black;
+	min-width: 10rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/** for the contact nav button **/
+.dropdown-content3{
+    display: none;
+	position: absolute;
+    margin-left: -5rem;
+    margin-top: -1rem;
+	background-color: black;
+	min-width: 10rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/** for the service nav button **/
+.dropdown-content > a{
+	color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+/** For the explore nav button **/
+.dropdown-content2 > a{
+    color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+/** for the contact nav button **/
+.dropdown-content3 > a{
+    color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+/** for the service nav button **/
+.dropdown-content > a:hover{
+	background-color: gray;
+}
+
+/** for the explore nav button **/
+.dropdown-content2 > a:hover{
+    background-color: gray;
+}
+
+/** for the contact nav button **/
+.dropdown-content3 > a:hover{
+    background-color: gray;
+}
+
+/** for the service nav button **/
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+/** for the explore nav button **/
+.dropdown:hover .dropdown-content2{
+    display: block;
+}
+
+/** for the contact nav button **/
+.dropdown:hover .dropdown-content3{
+    display: block;
+}
+
+.dropbtn{
+	background-color: black;
+	color: white;
+	padding: 16px;
+	font-size: 1rem;
+    font-weight: 100;
+	border: none;
+	cursor: pointer;
+}
 
 
 
