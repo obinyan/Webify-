@@ -57,7 +57,7 @@ a{
 .link{
     display: flex;
     flex-direction: row;
-    gap: 22rem;
+    gap: 2rem;
     margin-top: 2.5rem;
 }
 
