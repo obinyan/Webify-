@@ -32,10 +32,12 @@ a{
     gap: 5rem;
 }
 
-.homelink{
+/** Navigation link at the top of the home page**/
+.link{
     display: flex;
     flex-direction: row;
-    gap: 10rem;
+    gap: 2rem;
+    margin-top: 2.5rem;
 }
 
 
