@@ -32,12 +32,37 @@ a{
     gap: 5rem;
 }
 
+/** The page name **/
+.name{
+    margin-left: 2rem;
+}
+.name > h1{
+    font-size: 8rem;
+    font-weight: 500;
+    font-family: "armata", sans-serif;
+}
+
+/** Company name **/
+.logo{
+    margin-left: -22rem;
+    margin-top: 1rem;
+}
+
+.logo > img{
+    width: 8rem;
+    height: 8rem;
+}
+
 /** Navigation link at the top of the home page**/
 .link{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 22rem;
     margin-top: 2.5rem;
+}
+
+.link > h4 > a{
+    font-weight: 100;
 }
 
 .dropdown{
