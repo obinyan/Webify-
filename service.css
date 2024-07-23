@@ -29,10 +29,14 @@ a{
 .heading{
     display: flex;
     flex-direction: row;
-    gap: 35rem;
+    gap: 38rem;
 }
 
 /** The page name **/
+.name{
+    margin-left: 1rem;
+}
+
 .name > h1{
     font-size: 5rem;
     font-weight: 400;
@@ -41,7 +45,7 @@ a{
 
 /** Company name **/
 .logo{
-    margin-left: -34rem;
+    margin-left: -37rem;
     margin-top: 1rem;
 }
 
@@ -192,10 +196,10 @@ a{
 .serviceheading{
     display: flex;
     flex-direction: row;
-    gap: -4rem;
+    gap: -7rem;
     background-color: #707070;
     width: 100vw;
-    height: 4rem;
+    height: 5rem;
     color: black;
 }
 
