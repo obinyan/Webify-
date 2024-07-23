@@ -196,20 +196,19 @@ a{
 .serviceheading{
     display: flex;
     flex-direction: row;
-    gap: -7rem;
+    gap: -10rem;
     background-color: #707070;
     width: 100vw;
     height: 5rem;
 }
 
 .serviceheading > p{
-    text-align: center;
     align-content: center;
-    margin-left: 10rem;
 }
 
 .serviceheading > p >a{
     color: black;
+    text-align: center;
 }
 
 /** The design service **/
