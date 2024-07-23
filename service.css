@@ -193,7 +193,7 @@ a{
 /** section page begins **/
 
 /** service heading **/
-.serviceheading{
+.service-heading{
     display: flex;
     flex-direction: row;
     gap: -10rem;
@@ -202,11 +202,11 @@ a{
     height: 5rem;
 }
 
-.serviceheading > p{
+.service-heading > p{
     align-content: center;
 }
 
-.serviceheading > p >a{
+.service-heading > p >a{
     color: black;
     text-align: center;
 }
@@ -225,6 +225,18 @@ a{
     position: relative;
     top: 1.5rem;
     right: 2rem;
+}
+
+/** The grid layout for the design service **/
+.sub-service1 > div > img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.sub-service1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
 
