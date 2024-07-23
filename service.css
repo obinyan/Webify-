@@ -200,6 +200,7 @@ a{
     background-color: #707070;
     width: 100vw;
     height: 5rem;
+    margin-left: 10px;
 }
 
 .service-heading > p{
@@ -208,7 +209,6 @@ a{
 
 .service-heading > p >a{
     color: black;
-    justify-content: center;
 }
 
 /** The design service **/
@@ -229,14 +229,15 @@ a{
 
 /** The grid layout for the design service **/
 .sub-service1 > div > img{
-    width: 5rem;
-    height: 5rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .sub-service1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    margin-top: 3rem;
 }
 
 /** To make the image and text inline in the design service **/
