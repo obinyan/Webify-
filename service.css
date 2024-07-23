@@ -29,7 +29,7 @@ a{
 .heading{
     display: flex;
     flex-direction: row;
-    gap: 38rem;
+    gap: 37rem;
 }
 
 /** The page name **/
