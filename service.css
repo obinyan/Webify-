@@ -37,7 +37,7 @@ a{
     margin-left: 2rem;
 }
 .name > h1{
-    font-size: 8rem;
+    font-size: 5rem;
     font-weight: 500;
     font-family: "armata", sans-serif;
 }
@@ -49,8 +49,8 @@ a{
 }
 
 .logo > img{
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 /** Navigation link at the top of the home page**/
