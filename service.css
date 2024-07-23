@@ -186,6 +186,26 @@ a{
     margin-left: 3rem;
 }
 
+/** section page begins **/
+
+/** service heading **/
+.serviceheading{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.serviceheading > p{
+    text-align: center;
+    background-color: #707070;
+    width: 100vh;
+}
+
+
+
+
+
+
 
 
 
