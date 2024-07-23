@@ -41,7 +41,7 @@ a{
 
 /** Company name **/
 .logo{
-    margin-left: -32rem;
+    margin-left: -34rem;
     margin-top: 1rem;
 }
 
@@ -194,14 +194,15 @@ a{
     flex-direction: row;
     gap: 3rem;
     background-color: #707070;
-    width: 100vh;
-    height: 2rem;
+    width: 100vw;
+    height: 3.5rem;
 }
 
 .serviceheading > p{
     text-align: center;
     color: black;
     align-content: center;
+    margin-left: 25rem;
 }
 
 /** The design service **/
