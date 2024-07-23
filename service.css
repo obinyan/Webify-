@@ -200,13 +200,16 @@ a{
     background-color: #707070;
     width: 100vw;
     height: 5rem;
-    color: black;
 }
 
 .serviceheading > p{
     text-align: center;
     align-content: center;
     margin-left: 10rem;
+}
+
+.serviceheading > p >a{
+    color: black;
 }
 
 /** The design service **/
