@@ -29,7 +29,7 @@ a{
 .heading{
     display: flex;
     flex-direction: row;
-    gap: 25rem;
+    gap: 29rem;
 }
 
 /** The page name **/
@@ -41,7 +41,7 @@ a{
 
 /** Company name **/
 .logo{
-    margin-left: -22rem;
+    margin-left: -25rem;
     margin-top: 1rem;
 }
 
@@ -174,12 +174,14 @@ a{
 
 /** the welcome notes in the landing page **/
 .heading2{
-    font-size: 4rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 2rem;
 }
 
 .heading3{
-    font-size: 2rem;
-    width: 8rem;
+    font-size: 1rem;
+    width: 20rem;
 }
 
 
