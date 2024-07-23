@@ -186,7 +186,7 @@ a{
 
 .heading3{
     font-size: 1.5rem;
-    width: 35rem;
+    width: 40rem;
     margin-left: 3rem;
 }
 
@@ -196,7 +196,7 @@ a{
 .service-heading{
     display: flex;
     flex-direction: row;
-    gap: -10rem;
+    gap: -5rem;
     background-color: #707070;
     width: 100vw;
     height: 5rem;
@@ -208,7 +208,7 @@ a{
 
 .service-heading > p >a{
     color: black;
-    text-align: center;
+    justify-content: center;
 }
 
 /** The design service **/
@@ -239,7 +239,12 @@ a{
     grid-template-rows: repeat(2, 1fr);
 }
 
-
+/** To make the image and text inline in the design service **/
+.inline-heading{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
 
 
 
