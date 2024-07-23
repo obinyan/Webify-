@@ -29,19 +29,19 @@ a{
 .heading{
     display: flex;
     flex-direction: row;
-    gap: 29rem;
+    gap: 32rem;
 }
 
 /** The page name **/
 .name > h1{
     font-size: 5rem;
-    font-weight: 500;
+    font-weight: 400;
     font-family: "armata", sans-serif;
 }
 
 /** Company name **/
 .logo{
-    margin-left: -25rem;
+    margin-left: -29rem;
     margin-top: 1rem;
 }
 
@@ -175,15 +175,15 @@ a{
 /** the welcome notes in the landing page **/
 .heading2{
     font-size: 2rem;
-    font-weight: bolder;
+    font-weight: bold;
     margin-top: 2rem;
     margin-left: 1.5rem;
 }
 
 .heading3{
-    font-size: 1rem;
-    width: 20rem;
-    margin-left: 2rem;
+    font-size: 1.5rem;
+    width: 30rem;
+    margin-left: 3rem;
 }
 
 
