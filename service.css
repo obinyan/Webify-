@@ -177,11 +177,12 @@ a{
 
 /** the welcome notes in the landing page **/
 .heading2{
-    font-size: 8rem;
+    font-size: 4rem;
 }
 
 .heading3{
-    font-size: 5rem;
+    font-size: 2rem;
+    width: 8rem;
 }
 
 
