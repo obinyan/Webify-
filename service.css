@@ -195,11 +195,28 @@ a{
     gap: 3rem;
     background-color: #707070;
     width: 100vh;
+    height: 2rem;
 }
 
 .serviceheading > p{
     text-align: center;
     color: black;
+    align-content: center;
+}
+
+/** The design service **/
+
+.service1{
+    background-color: #373339;
+    color: black;
+}
+
+.service1 > h2{
+    font-size: 3rem;
+    margin-left: 3rem;
+    position: relative;
+    top: 1.5rem;
+    right: 1rem;
 }
 
 
