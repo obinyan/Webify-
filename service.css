@@ -29,13 +29,10 @@ a{
 .heading{
     display: flex;
     flex-direction: row;
-    gap: 22rem;
+    gap: 25rem;
 }
 
 /** The page name **/
-.name{
-    margin-left: 2rem;
-}
 .name > h1{
     font-size: 5rem;
     font-weight: 500;
