@@ -251,7 +251,7 @@ a{
 
 /** The explanation for the design services **/
 .sub-inline-note{
-    width: 25rem;
+    width: 20rem;
 }
 
 /** To make the image and text inline in the design service **/
@@ -278,6 +278,19 @@ a{
     right: 3rem;
 }
 
+/** The flex image **/
+.sub-service2 > div > div > img{
+    width: 2rem;
+    height: 2rem;
+}
+
+/** The flex layout for the development service **/
+.service2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 5rem;
+}
 
 
 
