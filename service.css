@@ -340,7 +340,7 @@ a{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 3rem;
-    margin: 5rem;
+    margin: 4rem;
 }
 
 /** To make the image and text inline in the web marketing service **/
