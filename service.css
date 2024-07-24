@@ -196,7 +196,7 @@ a{
 .service-heading{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: -3rem;
     background-color: #707070;
     width: 100vw;
     height: 5rem;
@@ -221,14 +221,14 @@ a{
 
 .service1 > h2{
     font-size: 3rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
     position: relative;
     top: 1.5rem;
     right: 2rem;
 }
 
 /** The grid layout for the design service **/
-.sub-service1 > div > img{
+.sub-service1 > div > div > img{
     width: 2rem;
     height: 2rem;
 }
@@ -237,7 +237,9 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2rem;
     margin-top: 5rem;
+    margin-left: 4rem;
 }
 
 /** To make the image and text inline in the design service **/
