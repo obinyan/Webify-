@@ -239,7 +239,7 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     margin-top: 5rem;
     margin-left: 4rem;
 }
