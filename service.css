@@ -217,10 +217,12 @@ a{
     background-color: #373339;
     color: black;
     width: 100vw;
+    height: 100vh;
 }
 
 .service1 > h2{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: "Aubery", system-ui;
     margin-left: 5rem;
     position: relative;
     top: 1.5rem;
@@ -240,6 +242,11 @@ a{
     grid-gap: 2rem;
     margin-top: 5rem;
     margin-left: 4rem;
+}
+
+/** Heading for each design service **/
+.sub-inline-heading{
+    font-size: 2rem;
 }
 
 /** To make the image and text inline in the design service **/
