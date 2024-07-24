@@ -217,16 +217,16 @@ a{
     background-color: #373339;
     color: black;
     width: 100vw;
-    height: 100vh;
+    height: 105vh;
 }
 
 .service1 > h2{
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-family: "Aubrey", system-ui;
     margin-left: 5rem;
     position: relative;
     top: 1.5rem;
-    right: 2rem;
+    right: 3rem;
 }
 
 /** The grid layout for the design service **/
@@ -240,8 +240,8 @@ a{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 3rem;
-    margin-top: 5rem;
-    margin-left: 4rem;
+    margin: 5rem;
+    
 }
 
 /** Heading for each design service **/
@@ -261,29 +261,7 @@ a{
     gap: 0.5rem;
 }
 
-.inline-heading2{
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-}
 
-.inline-heading3{
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-}
-
-.inline-heading4{
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-}
-
-.inline-heading5{
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-}
 
 
 
