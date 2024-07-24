@@ -196,15 +196,15 @@ a{
 .service-heading{
     display: flex;
     flex-direction: row;
-    gap: -5rem;
+    gap: 1rem;
     background-color: #707070;
     width: 100vw;
     height: 5rem;
-    margin-left: 10px;
 }
 
 .service-heading > p{
     align-content: center;
+    margin-left: 10rem;
 }
 
 .service-heading > p >a{
@@ -237,7 +237,7 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 /** To make the image and text inline in the design service **/
@@ -247,6 +247,29 @@ a{
     gap: 0.5rem;
 }
 
+.inline-heading2{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.inline-heading3{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.inline-heading4{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.inline-heading5{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
 
 
 
