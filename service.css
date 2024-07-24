@@ -196,7 +196,7 @@ a{
 .service-heading{
     display: flex;
     flex-direction: row;
-    gap: -3rem;
+    gap: -5rem;
     background-color: #707070;
     width: 100vw;
     height: 5rem;
@@ -222,7 +222,7 @@ a{
 
 .service1 > h2{
     font-size: 4rem;
-    font-family: "Aubery", system-ui;
+    font-family: "Aubrey", system-ui;
     margin-left: 5rem;
     position: relative;
     top: 1.5rem;
