@@ -292,10 +292,22 @@ a{
     margin: 5rem;
 }
 
+/** To make the image and text inline in the design service **/
+.inline-heading2{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
 
+/** Heading for each design service **/
+.sub-inline-heading2{
+    font-size: 2rem;
+}
 
-
-
+/** The explanation for the design services **/
+.sub-inline-note2{
+    width: 20rem;
+}
 
 
 
