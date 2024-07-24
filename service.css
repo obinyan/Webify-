@@ -262,11 +262,12 @@ a{
 }
 
 /** The development service **/
+
 .service2{
     background-color: #d9d9d9;
     color: black;
     width: 100vw;
-    
+    height: 35vh;
 }
 
 .service2 > h2{
@@ -292,29 +293,72 @@ a{
     margin: 5rem;
 }
 
-/** To make the image and text inline in the design service **/
+/** To make the image and text inline in the development service **/
 .inline-heading2{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
 }
 
-/** Heading for each design service **/
+/** Heading for each development service **/
 .sub-inline-heading2{
     font-size: 2rem;
 }
 
-/** The explanation for the design services **/
+/** The explanation for the development services **/
 .sub-inline-note2{
     width: 20rem;
 }
 
+/** The web marketing service **/
+
+.service3{
+    background-color: #373339;
+    color: white;
+    width: 100vw;
+    height: 105vh
+}
+
+.service3 > h2{
+    font-size: 4.5rem;
+    font-family: "Aubrey", system-ui;
+    margin-left: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 3rem;
+}
+
+/** The flex image **/
+.sub-service3 > div > div > img{
+    width: 2rem;
+    height: 2rem;
+}
+
+/** The flex layout for the web marketing service **/
+.sub-service3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 3rem;
+    margin: 5rem;
+}
+
+/** To make the image and text inline in the web marketing service **/
+.inline-heading3{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
 
 
+/** Heading for each web marketing service **/
+.sub-inline-heading3{
+    font-size: 2rem;
+}
 
-
-
-
-
+/** The explanation for the web marketing services **/
+.sub-inline-note3{
+    width: 20rem;
+}
 
 
