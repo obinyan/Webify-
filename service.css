@@ -472,13 +472,15 @@ a{
     font-size: 1.5rem;
     text-align: center;
     position: relative;
-    top: 2.5rem;
+    top: 4rem;
+    font-weight: 100;
 }
 
 .collaborate > h2{
     font-size: 2rem;
     text-align: center;
     margin-top: 5rem;
+    font-weight: 100;
 }
 
 .collaborate > p > a{
@@ -489,7 +491,7 @@ a{
 }
 
 .collaborate > p{
-    margin-left: 20px;
+    margin-left: 15rem;
     margin-top: 4rem;
 }
 
@@ -530,6 +532,7 @@ footer{
     background-color: black;
     border-color: black;
     height: 0rem;
+    margin-left: 1rem;
 }
 
 .table{
@@ -578,7 +581,7 @@ td > a{
 
 .terms1{
     margin-left: -46rem;
-    word-spacing: -0.5rem;
+    /**word-spacing: rem;**/
 }
 
 .terms > h3{
