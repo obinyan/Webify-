@@ -483,16 +483,14 @@ a{
     font-weight: 100;
 }
 
-.collaborate > p > a{
-    text-align: center;
-    align-content: center;
-}
+
 
 .collaborate > p{
     margin-left: 40rem;
     margin-top: 4rem;
+    align-content: center;
     background-color: #b7b3b3;
-    height: 5rem;
+    height: 3rem;
     width: 10rem;
 }
 
