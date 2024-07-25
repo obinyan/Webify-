@@ -460,6 +460,40 @@ a{
     width: 20rem;
 }
 
+/** The work/collaborate section **/
+.collaborate{
+    background-color: #12100f;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.collaborate > h3{
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 2.5rem;
+}
+
+.collaborate > h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.collaborate > p > a{
+    text-align: center;
+    align-content: center;
+    background-color: #b7b3b3;
+    height: 2rem;
+}
+
+
+
+
+
+
+
 
 
 
