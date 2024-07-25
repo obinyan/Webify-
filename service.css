@@ -486,8 +486,9 @@ a{
 
 
 .collaborate > p{
-    margin-left: 36rem;
+    margin-left: 37.5rem;
     margin-top: 4rem;
+    text-align: center;
     align-content: center;
     background-color: #b7b3b3;
     height: 3rem;
