@@ -367,7 +367,7 @@ a{
     background-color: #d9d9d9;
     color: black;
     width: 100vw;
-    height: 60vh; 
+    height: 75vh; 
 }
 
 .service4 > h2{
@@ -416,7 +416,7 @@ a{
     background-color: #373339;
     color: black;
     width: 100vw;
-    height: 60vh; 
+    height: 65vh; 
 }
 
 .service5 > h2{
@@ -478,16 +478,118 @@ a{
 .collaborate > h2{
     font-size: 2rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .collaborate > p > a{
     text-align: center;
     align-content: center;
     background-color: #b7b3b3;
-    height: 2rem;
+    height: 3rem;
 }
 
+.collaborate > p{
+    margin-left: 20px;
+    margin-top: 4rem;
+}
+
+
+/** footer begins **/
+footer{
+    background-color: white;
+    width: 100vw;
+    height: 45vh;
+}
+
+.icons > a > img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 18rem;
+    margin-left: 1rem;
+}
+
+.line{
+    width: 12rem;
+    height: 0rem;
+    rotate: 90deg;
+    margin-left: 40rem;
+    margin-top: -7rem;
+    background-color: black;
+    border-color: black;
+}
+
+.line2{
+    width: 80rem;
+    background-color: black;
+    border-color: black;
+    height: 0rem;
+}
+
+.table{
+    margin-left: 50rem;
+    margin-bottom: 1rem;
+}
+
+.table > table{
+    width: 35rem;
+    height: 14rem;
+    
+}
+
+.table > table > thead > tr > th{
+    font-weight: bolder;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.table > table > tbody > tr > td >{
+    text-align: left;
+}
+
+.table1{
+    position: relative;
+    left: 4.5rem;
+}
+
+td > a{
+    color: black;
+}
+
+.terms{
+    display: flex;
+    flex-direction: row;
+    gap: 45rem;
+}
+
+.terms > a > img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.terms1{
+    margin-left: -46rem;
+    word-spacing: -0.5rem;
+}
+
+.terms > h3{
+    font-weight: 100;
+    font-size: 1rem;
+    align-content: center;
+}
+
+.terms > h3 > a{
+    color: black;
+}
 
 
 
