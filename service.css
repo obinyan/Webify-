@@ -486,14 +486,14 @@ a{
 .collaborate > p > a{
     text-align: center;
     align-content: center;
-    background-color: #b7b3b3;
-    height: 5rem;
-    width: 10rem;
 }
 
 .collaborate > p{
     margin-left: 30rem;
     margin-top: 4rem;
+    background-color: #b7b3b3;
+    height: 5rem;
+    width: 10rem;
 }
 
 
@@ -569,7 +569,7 @@ td > a{
 .terms{
     display: flex;
     flex-direction: row;
-    gap: 50rem;
+    gap: 47rem;
 }
 
 .terms > a > img{
