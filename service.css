@@ -231,8 +231,8 @@ a{
 
 /** The grid layout for the design service **/
 .sub-service1 > div > div > img{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 .sub-service1{
@@ -281,8 +281,8 @@ a{
 
 /** The flex image **/
 .sub-service2 > div > div > img{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 /** The flex layout for the development service **/
@@ -331,8 +331,8 @@ a{
 
 /** The flex image **/
 .sub-service3 > div > div > img{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 /** The flex layout for the web marketing service **/
@@ -354,11 +354,113 @@ a{
 
 /** Heading for each web marketing service **/
 .sub-inline-heading3{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /** The explanation for the web marketing services **/
 .sub-inline-note3{
     width: 20rem;
 } 
+
+/** The business service **/
+.service4{
+    background-color: #373339;
+    color: black;
+    width: 100vw;
+    height: 60vh; 
+}
+
+.service4 > h2{
+    font-size: 4.5rem;
+    font-family: "Aubrey", system-ui;
+    margin-left: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 3rem;
+}
+
+/** The flex image **/
+.sub-service4 > div > div > img{
+    width: 3rem;
+    height: 3rem;
+}
+
+/** The flex layout for the development service **/
+.sub-service4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 3rem;
+    margin: 5rem;
+}
+
+/** To make the image and text inline in the development service **/
+.inline-heading4{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+/** Heading for each development service **/
+.sub-inline-heading4{
+    font-size: 2rem;
+}
+
+/** The explanation for the development services **/
+.sub-inline-note4{
+    width: 20rem;
+}
+
+/** The content marketing service **/
+.service5{
+    background-color: #373339;
+    color: black;
+    width: 100vw;
+    height: 60vh; 
+}
+
+.service5 > h2{
+    font-size: 4.5rem;
+    font-family: "Aubrey", system-ui;
+    margin-left: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 3rem;
+}
+
+/** The flex image **/
+.sub-service5 > div > div > img{
+    width: 3rem;
+    height: 3rem;
+}
+
+/** The flex layout for the development service **/
+.sub-service5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 3rem;
+    margin: 5rem;
+}
+
+/** To make the image and text inline in the development service **/
+.inline-heading5{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+/** Heading for each development service **/
+.sub-inline-heading5{
+    font-size: 1.5rem;
+}
+
+/** The explanation for the development services **/
+.sub-inline-note5{
+    width: 20rem;
+}
+
+
+
+
 
