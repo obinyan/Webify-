@@ -364,7 +364,7 @@ a{
 
 /** The business service **/
 .service4{
-    background-color: #373339;
+    background-color: #d9d9d9;
     color: black;
     width: 100vw;
     height: 60vh; 
@@ -385,7 +385,7 @@ a{
     height: 3rem;
 }
 
-/** The flex layout for the development service **/
+/** The flex layout for the business service **/
 .sub-service4{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -394,19 +394,19 @@ a{
     margin: 5rem;
 }
 
-/** To make the image and text inline in the development service **/
+/** To make the image and text inline in the business service **/
 .inline-heading4{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
 }
 
-/** Heading for each development service **/
+/** Heading for each business service **/
 .sub-inline-heading4{
     font-size: 2rem;
 }
 
-/** The explanation for the development services **/
+/** The explanation for the business services **/
 .sub-inline-note4{
     width: 20rem;
 }
@@ -434,7 +434,7 @@ a{
     height: 3rem;
 }
 
-/** The flex layout for the development service **/
+/** The flex layout for the content marketing service **/
 .sub-service5{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -443,19 +443,19 @@ a{
     margin: 5rem;
 }
 
-/** To make the image and text inline in the development service **/
+/** To make the image and text inline in the content marketing service **/
 .inline-heading5{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
 }
 
-/** Heading for each development service **/
+/** Heading for each content marketing service **/
 .sub-inline-heading5{
     font-size: 1.5rem;
 }
 
-/** The explanation for the development services **/
+/** The explanation for the content marketing services **/
 .sub-inline-note5{
     width: 20rem;
 }
