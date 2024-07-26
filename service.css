@@ -570,7 +570,7 @@ td > a{
 .terms{
     display: flex;
     flex-direction: row;
-    gap: 48rem;
+    gap: 50rem;
 }
 
 .terms > a > img{
@@ -582,7 +582,7 @@ td > a{
 }
 
 .terms1{
-    margin-left: -49rem;
+    margin-left: -52rem;
     /**word-spacing: rem;**/
 }
 
