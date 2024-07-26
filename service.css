@@ -200,6 +200,7 @@ a{
     background-color: #707070;
     width: 100vw;
     height: 5rem;
+    position: fixed;
 }
 
 .service-heading > p{
@@ -532,7 +533,7 @@ footer{
     background-color: black;
     border-color: black;
     height: 0rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .table{
@@ -568,7 +569,7 @@ td > a{
 .terms{
     display: flex;
     flex-direction: row;
-    gap: 47rem;
+    gap: 48rem;
 }
 
 .terms > a > img{
@@ -580,7 +581,7 @@ td > a{
 }
 
 .terms1{
-    margin-left: -46rem;
+    margin-left: -49rem;
     /**word-spacing: rem;**/
 }
 
