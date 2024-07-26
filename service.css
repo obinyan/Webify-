@@ -201,6 +201,7 @@ a{
     width: 100vw;
     height: 5rem;
     position: fixed;
+    z-index: 5rem;
 }
 
 .service-heading > p{
