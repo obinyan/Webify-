@@ -177,7 +177,7 @@ a{
 
 /** the welcome notes in the landing page **/
 .heading2{
-    align-content: end;
+    align-content: baseline;
 }
 
 .sub-heading2 > h3{
@@ -189,13 +189,13 @@ a{
     font-size: 2.5rem;
     font-weight: 100;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .sub-heading4 > p{
     font-weight: 100;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 /** section begins **/
@@ -209,8 +209,9 @@ a{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin-top: 3rem;
     justify-content: center;
+    position: relative;
+    top: 4rem;
 }
 
 .basic{
