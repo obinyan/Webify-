@@ -32,9 +32,9 @@ a{
 }
 
 /** The page name **/
-.name{
+/**.name{
     margin-left: 1rem;
-}
+}**/
 
 .name > h1{
     font-size: 5rem;
