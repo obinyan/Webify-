@@ -190,8 +190,6 @@ a{
     font-weight: 100;
     text-align: center;
     margin-top: 2rem;
-
-    
 }
 
 .sub-heading4 > p{
@@ -199,3 +197,190 @@ a{
     text-align: center;
     margin-top: 2rem;
 }
+
+/** section begins **/
+.workplan{
+    background-color: #d9d9d9;
+    width: 100vw;
+}
+
+/** The discription and examples **/ 
+.workplan2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.basic{
+    background-color: #707070;
+    color: black;
+    width: 25rem;
+    height: 33rem;
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
+    border-bottom-left-radius: 1.7rem;
+    border-bottom-right-radius: 1.7rem;
+}
+
+.basic > h2{
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 1rem;
+}
+
+.basic > h3{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+hr{
+    width: 20.2rem;
+    height: 0.1rem;
+    background-color: white;
+    margin-left: 2.3rem;
+}
+
+.basic > h4{
+    text-align: center;
+    margin-top: 0.6rem;
+    font-size: 2.5rem;
+    word-spacing: -1rem;
+}
+
+.basic > h5{
+    text-align: center;
+    font-size: 1rem;
+    word-spacing: -0.2rem;
+    background-color: #d9d9d9;
+    width: 14rem;
+    height: 1.5rem;
+    align-content: center;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    color: black;
+}
+.basic > h5 > a{
+    color: black;
+}
+
+.basic > ul{
+    margin-left: 2.7rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.standard{
+    background-color: #373339;
+    color: white;
+    width: 25rem;
+    height: 39rem;
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
+    border-bottom-left-radius: 1.7rem;
+    border-bottom-right-radius: 1.7rem;
+}
+
+.standard > h2{
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 1rem;
+}
+
+.standard > h3{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.standard > h4{
+    text-align: center;
+    margin-top: 0.6rem;
+    font-size: 2.5rem;
+    word-spacing: -1rem;
+}
+
+.standard > h5{
+    text-align: center;
+    font-size: 1rem;
+    word-spacing: -0.2rem;
+    background-color: #d9d9d9;
+    width: 14rem;
+    height: 1.5rem;
+    align-content: center;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    color: black; 
+}
+.standard > h5 > a{
+    color: black;
+}
+
+.standard > ul{
+    margin-left: 2.7rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.premium{
+    background-color: #1d1d1e;
+    color: white;
+    width: 25rem;
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
+    border-bottom-left-radius: 1.7rem;
+    border-bottom-right-radius: 1.7rem;
+}
+
+.premium > h2{
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 1rem;
+}
+
+.premium > h3{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.premium > hr{
+    width: 18rem;
+    margin-left: 3.5rem;
+}
+
+.premium > h4{
+    text-align: center;
+    margin-top: 0.6rem;
+    font-size: 2.5rem;
+    word-spacing: -1rem;
+}
+
+.premium > h5{
+    text-align: center;
+    font-size: 1rem;
+    word-spacing: -0.2rem;
+    background-color: #d9d9d9;
+    width: 14rem;
+    height: 1.5rem;
+    align-content: center;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    color: black; 
+}
+.premium > h5 > a{
+    color: black;
+}
+
+.premium > ul{
+    margin-left: 2.7rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+
