@@ -401,11 +401,11 @@ hr{
 .sub-workplan3a > h2{
     font-size: 3rem;
     font-weight: 100;
-    width: 22rem;
+    width: 30rem;
 }
 
 .sub-workplan3a > p{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     font-weight: 100;
 }
 
@@ -419,7 +419,7 @@ hr{
 }
 
 .sub-workplan3b > ol{
-    margin-left: 2.5rem;
+    margin-left: 4rem;
 }
 
 /** the thrid section heading **/
