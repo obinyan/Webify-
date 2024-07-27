@@ -390,7 +390,8 @@ hr{
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    margin-top: 5rem;
+    position: relative;
+    top: 5rem;
 }
 
 .sub-workplan3a{
@@ -419,9 +420,10 @@ hr{
     margin-left: 3rem;
 }
 
-/**.sub-workplan3b > ol{
-    margin-left: 6rem;
-}**/
+.sub-workplan3b > ol{
+    margin-left: 3rem;
+    
+}
 
 /** the thrid section heading **/
 .collaborate{
