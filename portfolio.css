@@ -179,8 +179,8 @@ a{
 .heading2{
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 2rem;
-    margin-left: 1.5rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
 }
 
 .heading3{
@@ -193,16 +193,16 @@ a{
 .portfolio-heading{
     background-color: #b7b3b3;
     color: #000000;
+    width: 100vw;
 }
 
 /** the first section heading **/
 .sub-portfolio-heading1 > h2{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #000000;
     position: relative;
     top: 2rem;
-    right: 4rem;
-
+    font-weight: 100;
 }
 
 .sub-portfolio-heading2{
@@ -210,12 +210,26 @@ a{
     flex-direction: row;
     gap: 2rem;
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .sub-portfolio-heading2 > p{
     color: #000000;
     font-size: 1.5rem;
 }
+
+/** the project images **/
+.work-image > img{
+    width: 13rem;
+    height: 16rem;
+}
+
+.work-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 2rem;
+}
+
 
 
