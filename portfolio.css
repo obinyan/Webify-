@@ -196,7 +196,7 @@ a{
     background-color: #b7b3b3;
     color: #000000;
     width: 100vw;
-    height: 350vh;
+    height: 370vh;
 }
 
 /** the first section heading **/
@@ -236,14 +236,14 @@ a{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 2rem;
-    align-items: center;
+    justify-items: center;
 }
 
 /** the second section heading **/
 .collaborate{
     background-color: #12100f;
     width: 100vw;
-    height: 115vh;
+    height: 120vh;
     color: white;
 }
 
