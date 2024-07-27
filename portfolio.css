@@ -189,4 +189,21 @@ a{
     margin-left: 3rem;
 }
 
+/** section style begins **/
+.portfolio-heading{
+    background-color: #b7b3b3;
+    color: #000000;
+}
+
+/** the first section heading **/
+.portfolio-heading > div > h2{
+    font-size: 3rem;
+    color: #000000;
+    position: relative;
+    top: 2rem;
+    right: 4rem;
+
+}
+
+
 
