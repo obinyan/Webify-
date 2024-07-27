@@ -203,13 +203,14 @@ a{
     position: relative;
     top: 2rem;
     font-weight: 100;
+    margin-left: 2rem;
 }
 
 .sub-portfolio-heading2{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-top: 4rem;
 }
 
@@ -220,8 +221,8 @@ a{
 
 /** the project images **/
 .work-image > img{
-    width: 13rem;
-    height: 16rem;
+    width: 15rem;
+    height: 18rem;
 }
 
 .work-image{
@@ -231,5 +232,39 @@ a{
     grid-gap: 2rem;
 }
 
+/** the second section heading **/
+.collaborate{
+    background-color: #12100f;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.collaborate > h3{
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+    font-weight: 100;
+}
+
+.collaborate > h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: 100;
+}
+
+
+
+.collaborate > p{
+    margin-left: 37.5rem;
+    margin-top: 4rem;
+    text-align: center;
+    align-content: center;
+    background-color: #b7b3b3;
+    height: 3rem;
+    width: 10rem;
+}
 
 
