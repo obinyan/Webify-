@@ -384,4 +384,39 @@ hr{
     font-size: 1.2rem;
 }
 
+/** the second section part **/
+.workplan3{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.sub-workplan3a{
+    margin-top: 3rem;
+}
+
+.sub-workplan3a > h2{
+    font-size: 2rem;
+    font-weight: 100;
+    width: 25rem;
+}
+
+.sub-workplan3a > p{
+    margin-top: 3rem;
+    font-weight: 100;
+}
+
+.sub-workplan3b > ol > li{
+    background-color: #ffffff;
+    width: 40rem;
+    height: 4rem;
+    align-content: center;
+    color: #000000;
+    border-radius: 2rem;
+}
+
+
+
+
 
