@@ -177,16 +177,17 @@ a{
 
 /** the welcome notes in the landing page **/
 .heading2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
+    font-family: "Aubrey", system-ui;
     margin-top: 4rem;
-    margin-left: 5rem;
+    margin-left: 6rem;
 }
 
 .heading3{
     font-size: 1.5rem;
-    width: 40rem;
-    margin-left: 3rem;
+    width: 42rem;
+    margin-left: 2rem;
 }
 
 /** section style begins **/
@@ -194,29 +195,33 @@ a{
     background-color: #b7b3b3;
     color: #000000;
     width: 100vw;
+    height: 275vh;
 }
 
 /** the first section heading **/
 .sub-portfolio-heading1 > h2{
-    font-size: 2rem;
+    font-size: 2.7rem;
     color: #000000;
     position: relative;
-    top: 2rem;
+    top: 4rem;
     font-weight: 100;
-    margin-left: 2rem;
+    margin-left: 3rem;
+    width: 28rem;
 }
 
 .sub-portfolio-heading2{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin-left: 3rem;
-    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-top: 6rem;
+    
 }
 
 .sub-portfolio-heading2 > p{
     color: #000000;
     font-size: 1.5rem;
+    font-weight: 100;
 }
 
 /** the project images **/
