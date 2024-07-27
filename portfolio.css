@@ -25,3 +25,168 @@ a{
     color: white;
 }
 
+.heading{
+    display: flex;
+    flex-direction: row;
+    gap: 37rem;
+}
+
+/** The page name **/
+.name{
+    margin-left: 1rem;
+}
+
+.name > h1{
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: "armata", sans-serif;
+}
+
+/** Company name **/
+.logo{
+    margin-left: -37rem;
+    margin-top: 1rem;
+}
+
+.logo > img{
+    width: 5rem;
+    height: 5rem;
+}
+
+/** Navigation link at the top of the home page**/
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.link > h4 > a{
+    font-weight: 100;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+    margin-top: -0.9rem;
+
+}
+
+/** for the services nav button **/
+.dropdown-content{
+	display: none;
+	position: absolute;
+    margin-left: -9rem;
+    margin-top: -1rem;
+	background-color: black;
+	min-width: 16rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/** for the explore nav button **/
+.dropdown-content2{
+    display: none;
+	position: absolute;
+    margin-left: -5rem;
+    margin-top: -1rem;
+	background-color: black;
+	min-width: 10rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/** for the contact nav button **/
+.dropdown-content3{
+    display: none;
+	position: absolute;
+    margin-left: -5rem;
+    margin-top: -1rem;
+	background-color: black;
+	min-width: 10rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/** for the service nav button **/
+.dropdown-content > a{
+	color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+/** For the explore nav button **/
+.dropdown-content2 > a{
+    color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+/** for the contact nav button **/
+.dropdown-content3 > a{
+    color: white;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	display: block;
+    font-weight: 100;
+}
+
+/** for the service nav button **/
+.dropdown-content > a:hover{
+	background-color: gray;
+}
+
+/** for the explore nav button **/
+.dropdown-content2 > a:hover{
+    background-color: gray;
+}
+
+/** for the contact nav button **/
+.dropdown-content3 > a:hover{
+    background-color: gray;
+}
+
+/** for the service nav button **/
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+/** for the explore nav button **/
+.dropdown:hover .dropdown-content2{
+    display: block;
+}
+
+/** for the contact nav button **/
+.dropdown:hover .dropdown-content3{
+    display: block;
+}
+
+.dropbtn{
+	background-color: black;
+	color: white;
+	padding: 16px;
+	font-size: 1rem;
+    font-weight: 100;
+	border: none;
+	cursor: pointer;
+}
+
+/** the welcome notes in the landing page **/
+.heading2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.heading3{
+    font-size: 1.5rem;
+    width: 40rem;
+    margin-left: 3rem;
+}
+
+
