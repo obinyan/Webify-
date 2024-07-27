@@ -416,11 +416,12 @@ hr{
     align-content: center;
     color: #000000;
     border-radius: 2rem;
+    margin-left: 3rem;
 }
 
-.sub-workplan3b > ol{
+/**.sub-workplan3b > ol{
     margin-left: 6rem;
-}
+}**/
 
 /** the thrid section heading **/
 .collaborate{
