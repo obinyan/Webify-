@@ -196,7 +196,7 @@ a{
 }
 
 /** the first section heading **/
-.portfolio-heading > div > h2{
+.sub-portfolio-heading1 > h2{
     font-size: 3rem;
     color: #000000;
     position: relative;
@@ -205,5 +205,17 @@ a{
 
 }
 
+.sub-portfolio-heading2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.sub-portfolio-heading2 > p{
+    color: #000000;
+    font-size: 1.5rem;
+}
 
 
