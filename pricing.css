@@ -412,21 +412,21 @@ hr{
 }
     
 
-.sub-workplan3b > ol > li{
+.sub-workplan3b > ol > li > a{
     background-color: #ffffff;
     width: 40rem;
     height: 4rem;
     align-content: center;
     color: #000000;
     border-radius: 2rem;
-    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .sub-workplan3b > ol{
     margin-right: 3rem;
     
 }
-}
+
 
 /** the thrid section heading **/
 .collaborate{
