@@ -415,7 +415,7 @@ hr{
     
 
 .sub-workplan3b > ol > li{
-    
+    background-color: #ffffff;
     width: 40rem;
     height: 4rem;
     align-content: center;
@@ -425,8 +425,8 @@ hr{
 }
 
 .sub-workplan3b > ol{
-    margin-left: 3rem;
-    background-color: #ffffff;
+    margin-right: 3rem;
+    
 }
 }
 
