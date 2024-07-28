@@ -412,7 +412,7 @@ hr{
 }
     
 
-.sub-workplan3b > ol{
+/**.sub-workplan3b > ol{
     background-color: #ffffff;
     width: 45rem;
     height: 4rem;
@@ -420,10 +420,16 @@ hr{
     color: #000000;
     border-radius: 2rem;
     margin-left: 3rem;
-}
+}**/
 
-.sub-workplan3b-height> li{
+.sub-workplan3b-height{
     height: 7rem;
+    background-color: #ffffff;
+    width: 45rem;
+    align-content: center;
+    color: #000000;
+    border-radius: 2rem;
+    margin-left: 3rem;
 }
 
 .sub-workplan3b-height > li > p{
