@@ -419,7 +419,7 @@ hr{
     align-content: center;
     color: #000000;
     border-radius: 2rem;
-    margin-right: 3rem;
+    margin-right: -3rem;
 }
 
 .sub-workplan3b > ol{
