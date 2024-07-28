@@ -390,6 +390,7 @@ hr{
     display: flex;
     flex-direction: row;
     gap: 5rem;
+    margin-top: 5rem;
     position: relative;
     top: 5rem;
 }
@@ -410,8 +411,12 @@ hr{
     font-weight: 100;
 }
 
-.sub-workplan3b > ol > li{
+.sub-workplan3b{
     background-color: #ffffff;
+}
+
+.sub-workplan3b > ol > li{
+    
     width: 40rem;
     height: 4rem;
     align-content: center;
