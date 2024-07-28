@@ -412,7 +412,7 @@ hr{
 }
     
 
-.sub-workplan3b > ol > li > a{
+.sub-workplan3b > ol > li > div{
     background-color: #ffffff;
     width: 40rem;
     height: 4rem;
