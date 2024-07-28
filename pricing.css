@@ -397,7 +397,7 @@ hr{
 
 .sub-workplan3a{
     margin-top: 4rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .sub-workplan3a > h2{
@@ -412,8 +412,7 @@ hr{
 }
 
 .sub-workplan3b{
-    background-color: #ffffff;
-}
+    
 
 .sub-workplan3b > ol > li{
     
@@ -427,7 +426,8 @@ hr{
 
 .sub-workplan3b > ol{
     margin-left: 3rem;
-    
+    background-color: #ffffff;
+}
 }
 
 /** the thrid section heading **/
