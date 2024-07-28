@@ -419,10 +419,10 @@ hr{
     align-content: center;
     color: #000000;
     border-radius: 2rem;
-    margin-right: 3rem;
+    margin-left: 3rem;
 }
 
-.sub-workplan3b-height{
+.sub-workplan3b-height> li{
     height: 7rem;
 }
 
