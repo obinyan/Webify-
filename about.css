@@ -177,10 +177,10 @@ a{
 
 /** the welcome notes in the landing page **/
 .heading2{
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: bold;
     font-family: "Aubrey", system-ui;
-    margin-top: 10rem;
+    margin-top: 13rem;
     margin-left: 2rem;
     width: 36rem;
 }
@@ -190,7 +190,7 @@ a{
     font-weight: 100;
     width: 38rem;
     margin-left: 2rem;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
 }
 
 
