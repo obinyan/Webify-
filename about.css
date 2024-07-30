@@ -287,7 +287,13 @@ a{
     font-size: 1rem;
 }
 
-
+/** the second part **/
+.about-2{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100vw;
+    height: 200vh;
+}
 
 
 
