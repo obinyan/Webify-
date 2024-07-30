@@ -260,7 +260,7 @@ a{
 .sub-about5{
     display: flex;
     flex-direction: row;
-    gap: 4rem;
+    gap: 3rem;
     margin-left: 45rem;
 }
 
@@ -273,7 +273,7 @@ a{
     width: 4rem;
     height: 0rem;
     rotate: 90deg;
-    
+    margin-top: 2rem;
     background-color: black;
     border-color: black;
 }
@@ -288,12 +288,12 @@ a{
 }
 
 /** the second part **/
-.about-2{
+/**.about-2{
     background-color: #000000;
     color: #ffffff;
     width: 100vw;
     height: 200vh;
-}
+}**/
 
 
 
