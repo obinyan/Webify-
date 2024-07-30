@@ -267,7 +267,7 @@ a{
 
 .sub-about5-a > p{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .sub-about5-b{
@@ -300,9 +300,24 @@ a{
 .sub-about-2a > h3{
     font-size: 2rem;
     font-weight: 100;
+    color: #000000;
 }
 
-.sub-about-2a
+.sub-about-2a{
+    margin-left: 4rem;
+    position: relative;
+    top: 4rem;
+}
+
+.sub-about-2b{
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.sub-about-2b > h2{
+    font-size: 2.2rem;
+    color: #000000;
+}
 
 
 
