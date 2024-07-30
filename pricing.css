@@ -426,7 +426,7 @@ hr{
 .sub-workplan3b-height{
     height: 10rem;
     background-color: #ffffff;
-    width: 30rem;
+    width: 40rem;
     align-content: center;
     color: #000000;
     border-radius: 2rem;
@@ -435,13 +435,13 @@ hr{
 .sub-workplan3b-height > p{
     margin-top: 3rem;
     margin-left: 3rem;
-    width: 25rem;
+    width: 35rem;
 }
 
 .sub-workplan3b-height-2{
     height: 4rem;
     background-color: #ffffff;
-    width: 30rem;
+    width: 40rem;
 }
 
 .sub-workplan3b-height-2 > p{
