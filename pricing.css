@@ -417,9 +417,6 @@ hr{
 }
 
 .sub-workplan3b > div{
-    background-color: #ffffff;
-    width: 50rem;
-    height: 4rem;
     align-content: center;
     color: #000000;
     border-radius: 2rem;
@@ -429,16 +426,26 @@ hr{
 .sub-workplan3b-height{
     height: 10rem;
     background-color: #ffffff;
-    width: 45rem;
+    width: 30rem;
     align-content: center;
     color: #000000;
     border-radius: 2rem;
-    margin-left: 3rem;
 }
 
-.sub-workplan3b-height > li > p{
+.sub-workplan3b-height > p{
     margin-top: 3rem;
-    width: 40rem;
+    margin-left: 3rem;
+    width: 25rem;
+}
+
+.sub-workplan3b-height-2{
+    height: 4rem;
+    background-color: #ffffff;
+    width: 30rem;
+}
+
+.sub-workplan3b-height-2 > p{
+    margin-left: 3rem;
 }
 
 
