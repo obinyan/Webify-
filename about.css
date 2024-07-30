@@ -289,7 +289,7 @@ a{
     background-color: #000000;
     color: #ffffff;
     width: 100vw;
-    height: 250vh;
+    height: 220vh;
 }
 
 .sub-about-2a > h3{
@@ -326,15 +326,17 @@ a{
 }
 
 .sub-about-2d{
-    margin-top: 4rem;
+    margin-top: 6rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 2rem;
+    margin: 2rem;
 }
 
 .sub-about-2d > div > p{
-    width: 30rem;
+    width: 28rem;
+    font-size: 1.2rem;
 }
 
 
