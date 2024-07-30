@@ -261,7 +261,7 @@ a{
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    margin-left: 45rem;
+    margin-left: 48rem;
     margin-top: 3rem;
 }
 
@@ -281,12 +281,7 @@ a{
 
 .sub-about5-c > p{
     text-align: center;
-    font-size: 1rem;
-}
-
-.sub-about5-1{
-    font-size: 0.5rem;
-    margin-left: -3;
+    font-size: 1.5rem;
 }
 
 /** the second part **/
@@ -294,7 +289,7 @@ a{
     background-color: #000000;
     color: #ffffff;
     width: 100vw;
-    height: 200vh;
+    height: 250vh;
 }
 
 .sub-about-2a > h3{
@@ -306,17 +301,17 @@ a{
 .sub-about-2a{
     margin-left: 4rem;
     position: relative;
-    top: 4rem;
+    top: 6rem;
 }
 
 .sub-about-2b{
-    margin-top: 4rem;
+    margin-top: 8rem;
     margin-left: 2rem;
 }
 
 .sub-about-2b > h2{
-    font-size: 2.2rem;
-    width: 30rem;
+    font-size: 2.5rem;
+    width: 32rem;
 }
 
 .sub-about-2c{
@@ -326,14 +321,21 @@ a{
 
 .sub-about-2c > p{
     font-size: 1.5rem;
-    width: 30rem;
+    font-weight: 100;
+    width: 35rem;
 }
 
 .sub-about-2d{
     margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2rem;
 }
 
-
+.sub-about-2d > div > p{
+    width: 30rem;
+}
 
 
 
