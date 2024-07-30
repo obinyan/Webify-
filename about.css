@@ -339,14 +339,17 @@ a{
 
 .sub-about-2d > div > p{
     width: 23rem;
-    font-size: 1rem;
-    font-weight: 100;
 }
 
 .sub-about-2d-1{
     font-weight: bold;
     font-size: 1.7rem;
     margin-bottom: 1rem;
+}
+
+.sub-about-2d-2{
+    font-size: 1.4rem;
+    font-weight: 100;
 }
 
 
