@@ -269,6 +269,15 @@ a{
     font-size: 1.7rem;
 }
 
+.sub-about5-b{
+    width: 4rem;
+    height: 0rem;
+    rotate: 90deg;
+    
+    background-color: black;
+    border-color: black;
+}
+
 .sub-about5-c > p{
     text-align: center;
     font-size: 1.7rem;
