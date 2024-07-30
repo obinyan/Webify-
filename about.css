@@ -262,6 +262,7 @@ a{
     flex-direction: row;
     gap: 3rem;
     margin-left: 45rem;
+    margin-top: 3rem;
 }
 
 .sub-about5-a > p{
@@ -270,7 +271,7 @@ a{
 }
 
 .sub-about5-b{
-    width: 4rem;
+    width: 5rem;
     height: 0rem;
     rotate: 90deg;
     margin-top: 2rem;
@@ -284,7 +285,8 @@ a{
 }
 
 .sub-about5-1{
-    font-size: 1rem;
+    font-size: 0.7rem;
+    margin-left: -1;
 }
 
 /** the second part **/
