@@ -261,9 +261,18 @@ a{
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    margin-left: 30rem;
+    margin-left: 50rem;
 }
 
+.sub-about5-a > p{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.sub-about5-c > p{
+    text-align: center;
+    font-size: 1.7rem;
+}
 
 
 
