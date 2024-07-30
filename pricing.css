@@ -424,7 +424,7 @@ hr{
 }
 
 .sub-workplan3b-height{
-    height: 10rem;
+    height: 4rem;
     background-color: #ffffff;
     width: 40rem;
     align-content: center;
@@ -435,6 +435,7 @@ hr{
 .sub-workplan3b-height > p{
     margin-top: 3rem;
     margin-left: 3rem;
+    font-size: 1rem;
     width: 35rem;
 }
 
@@ -446,6 +447,7 @@ hr{
 
 .sub-workplan3b-height-2 > p{
     margin-left: 3rem;
+    font-size: 1rem;
 }
 
 
