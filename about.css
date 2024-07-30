@@ -260,8 +260,8 @@ a{
 .sub-about5{
     display: flex;
     flex-direction: row;
-    gap: 5rem;
-    margin-left: 50rem;
+    gap: 4rem;
+    margin-left: 45rem;
 }
 
 .sub-about5-a > p{
@@ -283,7 +283,9 @@ a{
     font-size: 1.7rem;
 }
 
-
+.sub-about5-1{
+    font-size: 1rem;
+}
 
 
 
