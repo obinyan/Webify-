@@ -439,9 +439,11 @@ hr{
 }
 
 .sub-workplan3b-height > div > button{
-    margin-left: 3rem;
+    margin-left: -3rem;
     font-size: 1rem;
     width: 35rem;
+    border: none;
+    text-decoration: none;
 }
 
 .dropdown{
