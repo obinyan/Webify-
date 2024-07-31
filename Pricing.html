@@ -8,6 +8,14 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=armata">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=arsenal">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aubrey">
+        <script>
+            const trigger = document.getElementById('dropdown-trigger');
+            const content = document.querySelector('.dropdown-content');
+          
+            trigger.addEventListener('click', () => {
+              content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+          </script>
     </head>
     <body>
         <header>
@@ -145,10 +153,11 @@
                     </div>
                     <div class="sub-workplan3b">
                         <div class="sub-workplan3b-height">
-                            <p>
+                            <p id="dropdown-trigger">
                                 1. How long does it take to build a website?
-                            </p>    
-                            <!--<p>
+                            </p>
+                            <div class="dropdown-content4">    
+                                <p>
                                     This is a question we get asked all the time and 
                                     unfortunately the answer is: it varies. Some sites 
                                     can take months of design and development; others can 
@@ -157,7 +166,8 @@
                                     us to guess, so we tend not to. Through meetings, planning 
                                     and discussion we'll be able to understand your requirements 
                                     and then be able to estimate a project.
-                            </p>-->
+                                </p>
+                            </div>
                         </div>
                         <br>
                         <div class="sub-workplan3b-height">    
