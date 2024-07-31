@@ -433,10 +433,20 @@ hr{
 }
 
 .sub-workplan3b-height > p{
-    
     margin-left: 3rem;
     font-size: 1rem;
     width: 35rem;
+}
+
+.sub-workplan3b-height > div > button{
+    margin-left: 3rem;
+    font-size: 1rem;
+    width: 35rem;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content4{
@@ -446,7 +456,7 @@ hr{
     
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
-    z-index: 5;
+    z-index: 1;
 }
 
 .sub-workplan3b-height-2{
